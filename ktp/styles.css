@@ -1,0 +1,67 @@
+/* Reset styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #dbd0d0;
+    color: #000000;
+    text-align: center;
+    padding: 50px 0;
+    
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Book recommendation styles */
+  #book-recommendation {
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+  
+  #recommendation-box {
+    background-color: #276dd4; /* arka plan rengi */
+    color: #fff;
+    border: 3px solid #fff7f7;
+    padding: 40px;
+    display: inline-block;
+  }
+  
+  /* Book list styles */
+  #books {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #000000;
+
+  }
+  
+  #books li img {
+    width: 300px; /* Genişlik */
+    height: auto; /* Otomatik yükseklik ayarı */
+    border: 2px solid #fff7f7;
+
+  }
+  header img {
+    width: 200px; /* Genişlik */
+    height: auto; /* Otomatik yükseklik ayarı */
+  }
+  body {
+    background-color: #dab928; /* arka plan rengi */
+  }
+  header h1 {
+    font-family: 'Oxanium', sans-serif; 
+  }
+  

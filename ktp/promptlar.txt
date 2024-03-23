@@ -1,0 +1,90 @@
+ChatGPT:
+1)
+bir ön web geliştiricisi olarak hareket etmeni istiyorum
+web sitesinin amacı: kullanıcıların kitap okumasını tetiklemek
+Kitap listesi:
+1: Küçük Prens, Antoine de Saint-Exupéry
+2: Yabancı, Albert Camus
+3: Boğulmamak İçin, George Orwell
+4: Günaydın Geceyarısı, Jean Rhys"
+site açıldığında en üstte sitenin ismi yazacak
+sitenin adı: Günlük Kitap
+altında ise kitap öneriniz şeklinde bir kutucuk yer alacak
+kullanıcının önüne bu listedeki kitaplar çıkacak ve o listenin üstünde bir sembol yer alacak,
+o sembol ile kullanıcıya rastgele bir öneride bulun. 
+Eğer beğenmezse o öneriyi çıkar ve başka bir öneride bulun. Bunu tüm liste bitene kadar tekrarla
+kullanmak istediğim diller: HTML, CSS, Javascript, React, Bootstrap
+diğer isteklerim: web sitesi mobil ile uyumlu olmalı ve HTML, CSS, Javascript, React, Bootstrap kodlarını ayrı ayrı vermeni rica ediyorum.
+websitemde bulunmasını istediğim etiketler (header, main, nav, section, article, aside, footer) şeklindedir.
+Tüm gereklilikleri anlıyorsanız bu websitesini oluşturmamda yardımcı olur musunuz?
+
+2)
+bu yazdığın kodları VS Code üzerinden nasıl birleştirip bir websitesi haline getirebilirim ? bunun kodlarını yazar mısın ?
+
+3)
+siteyi tasarım olarak geliştirmek istiyorum: 
+1: Başlığı ortala
+2: önerilen kitap ismi ve 'bir kitap öner' kutucuğunu ortala ve arka planını mavi bir şekilde ayarla
+3: kitapları yan yana diz. her kitap için bir afiş olacak. afişleri daha sonra ekleyeceğim şimdilik dikdörtgen boşluk şeklinde kalsın
+
+4)
+çalışmadı değiştirmen gereken başka klasörler varsa onları da değiştriip tekrar kodları yazar mısın?
+
+5)
+gerekli görseller elimde fakat nasıl ekleyeceğimi bilmiyorum yardımcı olur musun ?
+
+6)
+görsellerin boyutunu nasıl ayarlayabilirim ?
+
+7)
+yeni bir ekleme yapmak istiyorum: sitenin başlığının altına bir logo eklemek istiyorum.
+
+8)
+logonun boyutunu nasıl ayarlayacağım ?
+
+9)
+sitenin arkaplanını farklı bir renk yapmak istiyorum.
+
+10)
+şu ana kadar yaptıklarını beğendim fakat bir sorun çıktı. önerilen kitap kutucuğunun altında kitap isimleri yazmasın. neyi düzeltmem gerekiyor bunun için
+#
+hangi kodun karışılık geldiğini öğrendim ve html dosyasından
+"</section>
+    <section id="book-list">
+      <ul id="books"></ul>
+    </section>" 
+satırlarını kaldırdım
+#
+
+11)
+site başlığını başka bir fontta yazmak istiyorum 
+#
+burda bana bir font önerdi fakat beğenmedim ve Google Fonts üzerinden başka seçenekler bulabileceğimi söyledi ben de başka bir font bulup onu ekledim.
+#
+
+12)
+
+Copilot:
+
+1.merhaba bir kitap sitesi tasarlıyorum. kitap kapağı oluşturmak istiyorum. ''Antoine de Saint-Exupéry - Küçük Prens'' kitabına bir kapak resmi yapar mısın ?
+2.merhaba bir kitap sitesi tasarlıyorum. kitap kapağı oluşturmak istiyorum. ''Albert Camus - Yabancı'' kitabına bir kapak resmi yapar mısın ?
+3.merhaba bir kitap sitesi tasarlıyorum. kitap kapağı oluşturmak istiyorum. ''George Orwell - Boğulmamak İçin'' kitabına bir kapak resmi yapar mısın ?
+4.Jean Rhys - Günaydın Geceyarısı kitap kağaı tasarlar mısın ?
+5.daha farklı bir tasarım yapar mısın?
+6.bana bir logo tasarlayabilir misin? Günlük Kitap önerdiğim bir site var bu siteyle ilgili bir logo olacak.
+#çoklu öneride bulundu bir görselde 4-6 seçenek vardı ben de beğendiğimi kestim tekrar yolladım#
+7.bu görseli Copilot ile oluşturdum ve bunun aynısını daha net bir şekilde tekrar atar mısın?
+
+
+verilen görselin arkaplanını kaldırmak için ''remove.bg'' sitesine yükledim ve fotoğrafı png olarak alıp img klasörüne ekledim.
+
+El ile düzelttiğim bazı detaylar:
+arka plan rengi 
+öneri kutucuğu rengi ve boyutu
+yazı/başlık boyutu
+
+
+
+
+
+
